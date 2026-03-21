@@ -1,4 +1,4 @@
-[3/21/2026 10:32 PM] BHAGYA SRI Kl: # Assignment 2 — Genetic Algorithm: Knapsack Problem
+[3/21/2026 11:30 PM] NAVYA SRI KL : # Assignment 2 — Genetic Algorithm: Knapsack Problem
 ## Observation Report
 
 Student Name  : D.Navya sri 
@@ -92,7 +92,7 @@ Results table:
 | 0.01         |    75          | 14.9/15.0   |   Yes  |Slow improvement, converges early|
 | 0.05         |    77          | 14.4/15.0   |   Yes  |Smooth convergence  |
 | 0.30         |    78          | 14.1/15.0   |   Yes  | More fluctuations but finds better solution |
-[3/21/2026 10:32 PM] BHAGYA SRI Kl: Compare the three plots. What happens when mutation is too low? Too high? (3–4 sentences)  
+[3/21/2026 11:31 PM] NAVYA SRI Kl: Compare the three plots. What happens when mutation is too low? Too high? (3–4 sentences)  
 *Hint: Too low = no diversity, may get stuck. Too high = random search. What is the sweet spot?*
 [ When the mutation rate is very low (0.01), the population does not change much and the algorithm may get stuck in a local optimum. When the mutation rate is very high (0.30), too many genes flip randomly, which destroys good solutions and makes the search unstable. The balanced mutation rate (0.05) provides a good trade-off between exploration and stability. It allows the algorithm to discover better solutions while preserving strong chromosomes. ]
 
