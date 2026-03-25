@@ -117,9 +117,9 @@ In your own words — what is the most important thing you learned about Genetic
 
 ## Submission Checklist
 
-- [ ] Student name and ID filled in
-- [ ] Q1, Q2, Q3 answered
-- [ ] Experiment 1: table filled, packing list pasted, plot observation written
-- [ ] Experiment 2: results table filled (3 rows), observation and answer written
-- [ ] Summary table completed and reflection written
-- [ ] plots/ contains: experiment_1.png, experiment_2a.png, experiment_2b.png, experiment_2c.png
+- [x ] Student name and ID filled in
+- [x ] Q1, Q2, Q3 answered
+- [x ] Experiment 1: table filled, packing list pasted, plot observation written
+- [x ] Experiment 2: results table filled (3 rows), observation and answer written
+- [x ] Summary table completed and reflection written
+- [x ] plots/ contains: experiment_1.png, experiment_2a.png, experiment_2b.png, experiment_2c.png
