@@ -53,9 +53,7 @@ Keeping the best solution helps maintain steady improvement in the genetic algor
 ## Experiment 1 — Baseline Run
 
 **Instructions:** Run the program without changing anything.
-```bash
 python ga_knapsack.py
-```
 
 **Fill in this table:**
 
@@ -82,9 +80,7 @@ Power bank
 
 **Look at `plots/experiment_1.png` and describe what you see (2–3 sentences).**  
 *Where does the biggest improvement happen? Does the curve flatten at some point?*
-```
-The graph shows a rapid increase in the fitness value during the first few generations, indicating that the genetic algorithm quickly finds better solutions. The biggest improvement happens in the early generations as good item combinations are discovered. After several generations, the curve begins to flatten, which means the algorithm has converged to a near optimal solution.
-```
+Observation: The graph shows a rapid increase in the fitness value during the first few generations, indicating that the genetic algorithm quickly finds better solutions. The biggest improvement happens in the early generations as good item combinations are discovered. After several generations, the curve begins to flatten, which means the algorithm has converged to a near optimal solution.
 
 ---
 
@@ -105,14 +101,10 @@ Save plots as `experiment_2a.png`, `experiment_2b.png`, `experiment_2c.png`.
 
 **Compare the three plots. What happens when mutation is too low? Too high? (3–4 sentences)**  
 *Hint: Too low = no diversity, may get stuck. Too high = random search. What is the sweet spot?*
-```
-When the mutation rate is very low (0.01), the genetic algorithm explores fewer new solutions and may converge slowly or get stuck in local optimum solutions. With a moderate mutation rate (0.05), the algorithm balances exploration and exploitation and shows a smoother convergence. When the mutation rate is high (0.30), the search becomes more random and the curve fluctuates more, but it may discover better solutions due to higher diversity in the population.
-```
+Observation: When the mutation rate is very low (0.01), the genetic algorithm explores fewer new solutions and may converge slowly or get stuck in local optimum solutions. With a moderate mutation rate (0.05), the algorithm balances exploration and exploitation and shows a smoother convergence. When the mutation rate is high (0.30), the search becomes more random and the curve fluctuates more, but it may discover better solutions due to higher diversity in the population.
 
 **Which mutation_rate gave the best result? Why do you think that is?**
-```
 The mutation rate of 0.30 produced the best result with a final value of 78. A higher mutation rate introduces more diversity in the population, allowing the algorithm to explore more possible combinations of items. This increased exploration helped the algorithm find a slightly better solution for the knapsack problem.
-```
 
 ---
 
@@ -127,9 +119,7 @@ The mutation rate of 0.30 produced the best result with a final value of 78. A h
 
 
 **In your own words — what is the most important thing you learned about Genetic Algorithms from these experiments? (3–5 sentences)**
-```
-From these experiments I learned that genetic algorithms improve solutions gradually over generations using selection, crossover, and mutation. The mutation rate plays an important role because it controls the diversity of solutions in the population. If the mutation rate is too low, the algorithm may get stuck in local optimum solutions. If it is too high, the search becomes more random. A balanced mutation rate helps the algorithm explore new solutions while still converging toward an optimal result.
-```
+Conclusion: From these experiments I learned that genetic algorithms improve solutions gradually over generations using selection, crossover, and mutation. The mutation rate plays an important role because it controls the diversity of solutions in the population. If the mutation rate is too low, the algorithm may get stuck in local optimum solutions. If it is too high, the search becomes more random. A balanced mutation rate helps the algorithm explore new solutions while still converging toward an optimal result.
 
 ---
 
@@ -139,5 +129,3 @@ From these experiments I learned that genetic algorithms improve solutions gradu
 - [x] Q1, Q2, Q3 answered
 - [x] Experiment 1: table filled, packing list pasted, plot observation written
 - [x] Experiment 2: results table filled (3 rows), observation and answer written
-- [x] Summary table completed and reflection written
-- [x] `plots/` contains: `experiment_1.png`, `experiment_2a.png`, `experiment_2b.png`, 
