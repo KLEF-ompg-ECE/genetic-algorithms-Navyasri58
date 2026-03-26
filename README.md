@@ -49,17 +49,24 @@ This copies the best chromosome into the next generation. This is called elitism
 **Copy the printed packing list here:**
 
 ```
-Water bottle
-First aid kit
-Sleeping bag
-Torch
-Energy bars
-Rain jacket
-Map & compass
-Cooking stove
-Rope
-Sunscreen
-Power bank
+================================================
+  EXPERIMENT 1 - Baseline
+================================================
+
+  Best Packing List
+--------------------------------------
+  + Water bottle
+  + First aid kit
+  + Sleeping bag
+  + Torch
+  + Energy bars (x6)
+  + Rain jacket
+  + Map & compass
+  + Cooking stove
+  + Rope (10 m)
+  + Sunscreen
+  + Power bank
+--------------------------------------
 ```
 
 **Look at `plots/experiment_1.png` and describe what you see (2–3 sentences).**
